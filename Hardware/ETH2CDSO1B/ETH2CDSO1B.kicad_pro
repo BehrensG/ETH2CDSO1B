@@ -479,6 +479,22 @@
     [
       "a039f7c3-14d4-4325-8e97-2f63d3d03449",
       "Voltage Source"
+    ],
+    [
+      "45cf2216-7ba0-412c-bbcb-6adbd9bfb27f",
+      "CH2 Input"
+    ],
+    [
+      "39d4b714-e12b-48ec-bb4e-d7c92259f103",
+      "ADC"
+    ],
+    [
+      "6dd0da5a-350a-4004-91bc-431ec87ae3a1",
+      "FPGA"
+    ],
+    [
+      "e360692a-ddc0-4a6e-8926-3c9c18220a21",
+      "Power"
     ]
   ],
   "text_variables": {}
