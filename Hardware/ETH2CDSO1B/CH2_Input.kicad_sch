@@ -6377,34 +6377,6 @@
     )
   )
 
-  (symbol (lib_id "power:+12V") (at 141.605 110.49 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 94d99603-4d2f-40e0-97ef-31cf47e18eba)
-    (property "Reference" "#PWR0226" (at 145.415 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+12V" (at 137.795 110.49 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 141.605 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 141.605 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 70fff862-4f5f-4085-a459-bb097ce921b9))
-    (instances
-      (project "ETH2CDSO1B"
-        (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/4548d26a-48b5-4733-ae40-ebee8ab230ff"
-          (reference "#PWR0226") (unit 1)
-        )
-        (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/45cf2216-7ba0-412c-bbcb-6adbd9bfb27f"
-          (reference "#PWR0426") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "ETH2CDSO1B:-5FC1") (at 354.33 144.78 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94eb5283-be28-42e2-a06e-0d3b8dcff6bf)
@@ -6949,6 +6921,34 @@
     )
   )
 
+  (symbol (lib_id "power:+5V") (at 141.605 110.49 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ad445e29-5637-48dc-859b-5f27074efbcf)
+    (property "Reference" "#PWR0215" (at 145.415 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 137.795 110.49 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 141.605 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 141.605 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5cfed5ad-c069-4458-8afd-5308cad7ed69))
+    (instances
+      (project "ETH2CDSO1B"
+        (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/4548d26a-48b5-4733-ae40-ebee8ab230ff"
+          (reference "#PWR0215") (unit 1)
+        )
+        (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/45cf2216-7ba0-412c-bbcb-6adbd9bfb27f"
+          (reference "#PWR0426") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector:TestPoint") (at 121.92 163.195 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae472d7e-3a79-410b-950e-f9daa4a5a913)
@@ -7326,13 +7326,13 @@
     )
   )
 
-  (symbol (lib_id "power:+12V") (at 186.055 83.82 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 186.055 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c0ef3d62-1472-438f-b8e2-694b82118ece)
-    (property "Reference" "#PWR0233" (at 186.055 87.63 0)
+    (uuid c06f0b78-671d-4e94-abfe-49f5444f8a43)
+    (property "Reference" "#PWR0215" (at 186.055 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+12V" (at 186.055 79.375 0)
+    (property "Value" "+5V" (at 186.055 79.375 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 186.055 83.82 0)
@@ -7341,11 +7341,11 @@
     (property "Datasheet" "" (at 186.055 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 331c7079-91b6-4ed2-808b-7893b6e956ea))
+    (pin "1" (uuid 193177c5-e538-4663-870a-49d3c1fbbba5))
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/4548d26a-48b5-4733-ae40-ebee8ab230ff"
-          (reference "#PWR0233") (unit 1)
+          (reference "#PWR0215") (unit 1)
         )
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/45cf2216-7ba0-412c-bbcb-6adbd9bfb27f"
           (reference "#PWR0433") (unit 1)
