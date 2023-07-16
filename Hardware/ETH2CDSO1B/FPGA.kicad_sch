@@ -2566,7 +2566,7 @@
   (symbol (lib_id "power:GND") (at 205.74 52.07 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02e54c2e-0bb5-43f4-801d-5d84b9fad04d)
-    (property "Reference" "#PWR0609" (at 199.39 52.07 0)
+    (property "Reference" "#PWR0610" (at 199.39 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 201.93 52.07 90)
@@ -2582,7 +2582,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "#PWR0609") (unit 1)
+          (reference "#PWR0610") (unit 1)
         )
       )
     )
@@ -2591,13 +2591,13 @@
   (symbol (lib_id "Device:R") (at 257.81 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1123fb5f-1310-4bc7-bc38-be4c9f2a3fd4)
-    (property "Reference" "R610" (at 259.715 72.39 0)
+    (property "Reference" "R606" (at 259.715 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 259.715 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 256.032 73.66 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 256.032 73.66 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 257.81 73.66 0)
@@ -2608,7 +2608,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "R610") (unit 1)
+          (reference "R606") (unit 1)
         )
       )
     )
@@ -2655,7 +2655,7 @@
   (symbol (lib_id "power:+3.3V") (at 204.47 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 311692bb-401b-45d2-9435-937915384fde)
-    (property "Reference" "#PWR0606" (at 204.47 69.85 0)
+    (property "Reference" "#PWR0607" (at 204.47 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 204.47 60.96 0)
@@ -2671,7 +2671,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "#PWR0606") (unit 1)
+          (reference "#PWR0607") (unit 1)
         )
       )
     )
@@ -2680,7 +2680,7 @@
   (symbol (lib_id "power:+3.3V") (at 48.895 107.95 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 352d29b4-3fb3-4fef-88d6-07e38232f6a3)
-    (property "Reference" "#PWR0602" (at 52.705 107.95 0)
+    (property "Reference" "#PWR0603" (at 52.705 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 45.085 107.95 90)
@@ -2696,7 +2696,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "#PWR0602") (unit 1)
+          (reference "#PWR0603") (unit 1)
         )
       )
     )
@@ -2705,13 +2705,13 @@
   (symbol (lib_id "Device:R") (at 252.095 143.51 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c91e459-968e-4938-af4e-b1d411f91a05)
-    (property "Reference" "R609" (at 252.095 140.97 90)
+    (property "Reference" "R605" (at 252.095 140.97 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 252.095 143.51 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 252.095 145.288 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 252.095 145.288 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 252.095 143.51 0)
@@ -2722,7 +2722,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "R609") (unit 1)
+          (reference "R605") (unit 1)
         )
       )
     )
@@ -2731,7 +2731,7 @@
   (symbol (lib_id "power:GND") (at 215.9 69.85 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3fcb509e-4620-4192-b3a6-618d9d323ae4)
-    (property "Reference" "#PWR0624" (at 222.25 69.85 0)
+    (property "Reference" "#PWR0611" (at 222.25 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 219.075 69.85 90)
@@ -2747,7 +2747,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "#PWR0624") (unit 1)
+          (reference "#PWR0611") (unit 1)
         )
       )
     )
@@ -2756,7 +2756,7 @@
   (symbol (lib_id "power:GND") (at 273.685 159.385 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41c954c6-fb60-459b-8be5-ee1dfb9a49d4)
-    (property "Reference" "#PWR0621" (at 273.685 165.735 0)
+    (property "Reference" "#PWR0622" (at 273.685 165.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 273.685 163.83 0)
@@ -2772,7 +2772,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "#PWR0621") (unit 1)
+          (reference "#PWR0622") (unit 1)
         )
       )
     )
@@ -2806,7 +2806,7 @@
   (symbol (lib_id "power:+3.3V") (at 205.105 21.59 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f9479f0-5f70-4d32-a17d-9663530c31ab)
-    (property "Reference" "#PWR0608" (at 208.915 21.59 0)
+    (property "Reference" "#PWR0609" (at 208.915 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 201.93 21.59 90)
@@ -2822,7 +2822,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "#PWR0608") (unit 1)
+          (reference "#PWR0609") (unit 1)
         )
       )
     )
@@ -2837,7 +2837,7 @@
     (property "Value" "BLUE" (at 36.83 33.02 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 33.655 31.75 0)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 33.655 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.655 31.75 0)
@@ -2863,7 +2863,7 @@
     (property "Value" "330" (at 35.56 25.4 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 35.433 24.13 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 35.433 24.13 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.655 24.13 0)
@@ -2883,7 +2883,7 @@
   (symbol (lib_id "power:GND") (at 250.825 159.385 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 666d2b0a-56ed-4801-9f7d-fa6b158fd2c2)
-    (property "Reference" "#PWR0615" (at 250.825 165.735 0)
+    (property "Reference" "#PWR0613" (at 250.825 165.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.825 163.83 0)
@@ -2899,7 +2899,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "#PWR0615") (unit 1)
+          (reference "#PWR0613") (unit 1)
         )
       )
     )
@@ -2940,13 +2940,13 @@
   (symbol (lib_id "Device:R") (at 250.825 155.575 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6fb7fc4f-6691-4d8e-b87a-da51ea46d088)
-    (property "Reference" "R608" (at 252.73 154.305 0)
+    (property "Reference" "R604" (at 252.73 154.305 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R" (at 252.73 156.845 0)
+    (property "Value" "1k" (at 252.73 156.845 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 249.047 155.575 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 249.047 155.575 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 250.825 155.575 0)
@@ -2957,7 +2957,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "R608") (unit 1)
+          (reference "R604") (unit 1)
         )
       )
     )
@@ -2966,7 +2966,7 @@
   (symbol (lib_id "power:+3.3V") (at 259.08 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 70a79b75-c238-4dc7-af62-891297d9a437)
-    (property "Reference" "#PWR0610" (at 259.08 107.95 0)
+    (property "Reference" "#PWR0615" (at 259.08 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 259.08 100.33 0)
@@ -2982,7 +2982,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "#PWR0610") (unit 1)
+          (reference "#PWR0615") (unit 1)
         )
       )
     )
@@ -2997,7 +2997,7 @@
     (property "Value" "GREEN" (at 276.86 157.7975 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 273.685 154.94 0)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 273.685 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 273.685 154.94 0)
@@ -3017,7 +3017,7 @@
   (symbol (lib_id "Device:C") (at 212.09 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74a57ae5-d759-43a3-843c-504dd9f42f74)
-    (property "Reference" "C?" (at 212.09 62.865 90)
+    (property "Reference" "C601" (at 212.09 62.865 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 212.09 65.405 90)
@@ -3034,7 +3034,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "C?") (unit 1)
+          (reference "C601") (unit 1)
         )
       )
     )
@@ -3068,13 +3068,13 @@
   (symbol (lib_id "Device:R") (at 240.03 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75e6afed-357d-433c-bf65-3a989f1df1af)
-    (property "Reference" "R604" (at 241.935 72.39 0)
+    (property "Reference" "R602" (at 241.935 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 241.935 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 238.252 73.66 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 238.252 73.66 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 240.03 73.66 0)
@@ -3085,19 +3085,19 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "R604") (unit 1)
+          (reference "R602") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "FPGA_Xilinx_Spartan6:XC6SLX9-TQG144") (at 232.41 36.83 0) (unit 4)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ec2dab1-aaea-4f71-9402-68b0eaf46776)
     (property "Reference" "U601" (at 232.41 14.605 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "XC6SLX9-TQG144" (at 232.41 17.145 0)
+    (property "Value" "XC6SLX9-xTQG144" (at 232.41 17.145 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 232.41 36.83 0)
@@ -3262,7 +3262,7 @@
   (symbol (lib_id "power:+3.3V") (at 192.405 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8712c567-3d73-4f9e-bd20-86cffd12c219)
-    (property "Reference" "#PWR0623" (at 196.215 85.09 0)
+    (property "Reference" "#PWR0606" (at 196.215 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 189.23 85.09 90)
@@ -3278,7 +3278,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "#PWR0623") (unit 1)
+          (reference "#PWR0606") (unit 1)
         )
       )
     )
@@ -3287,7 +3287,7 @@
   (symbol (lib_id "power:+3.3V") (at 266.065 95.885 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ef15e90-5e42-4fda-8e8e-68eff11263b4)
-    (property "Reference" "#PWR0620" (at 269.875 95.885 0)
+    (property "Reference" "#PWR0619" (at 269.875 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 262.89 95.885 90)
@@ -3303,7 +3303,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "#PWR0620") (unit 1)
+          (reference "#PWR0619") (unit 1)
         )
       )
     )
@@ -3312,13 +3312,13 @@
   (symbol (lib_id "Device:R") (at 262.89 155.575 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90d53330-fc1f-4722-a6ed-cc3cc3cc0bb8)
-    (property "Reference" "R611" (at 264.795 154.305 0)
+    (property "Reference" "R609" (at 264.795 154.305 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 264.795 156.845 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 261.112 155.575 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 261.112 155.575 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 262.89 155.575 0)
@@ -3329,7 +3329,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "R611") (unit 1)
+          (reference "R609") (unit 1)
         )
       )
     )
@@ -3338,7 +3338,7 @@
   (symbol (lib_id "power:+3.3V") (at 272.415 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a1fa6145-edeb-4c19-ac8f-c3f4eaed0526)
-    (property "Reference" "#PWR0613" (at 272.415 107.95 0)
+    (property "Reference" "#PWR0620" (at 272.415 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 272.415 100.33 0)
@@ -3354,7 +3354,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "#PWR0613") (unit 1)
+          (reference "#PWR0620") (unit 1)
         )
       )
     )
@@ -3363,7 +3363,7 @@
   (symbol (lib_id "power:+3.3V") (at 262.89 159.385 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2c42b57-5696-40ba-8f8e-020cb63e9b36)
-    (property "Reference" "#PWR0619" (at 262.89 155.575 0)
+    (property "Reference" "#PWR0618" (at 262.89 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 262.89 163.83 0)
@@ -3379,7 +3379,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "#PWR0619") (unit 1)
+          (reference "#PWR0618") (unit 1)
         )
       )
     )
@@ -3388,7 +3388,7 @@
   (symbol (lib_id "power:GND") (at 204.47 96.52 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5813f6e-ae07-455b-bb82-2a8666744293)
-    (property "Reference" "#PWR0607" (at 204.47 102.87 0)
+    (property "Reference" "#PWR0608" (at 204.47 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 204.47 100.965 0)
@@ -3404,7 +3404,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "#PWR0607") (unit 1)
+          (reference "#PWR0608") (unit 1)
         )
       )
     )
@@ -3442,7 +3442,7 @@
     (property "Reference" "U601" (at 90.17 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "XC6SLX9-TQG144" (at 90.17 21.59 0)
+    (property "Value" "XC6SLX9-xTQG144" (at 90.17 21.59 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 90.17 60.325 0)
@@ -3632,7 +3632,7 @@
   (symbol (lib_id "power:+3.3V") (at 48.895 16.51 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac3a0e25-63e5-44b8-ba5a-7d6463e044fb)
-    (property "Reference" "#PWR0603" (at 52.705 16.51 0)
+    (property "Reference" "#PWR0602" (at 52.705 16.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 45.085 16.51 90)
@@ -3648,7 +3648,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "#PWR0603") (unit 1)
+          (reference "#PWR0602") (unit 1)
         )
       )
     )
@@ -3657,13 +3657,13 @@
   (symbol (lib_id "Device:R") (at 259.08 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b040773a-b721-4001-8bb1-c54ed15bed23)
-    (property "Reference" "R602" (at 260.985 106.68 0)
+    (property "Reference" "R607" (at 260.985 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 260.985 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 257.302 107.95 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 257.302 107.95 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 259.08 107.95 0)
@@ -3674,7 +3674,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "R602") (unit 1)
+          (reference "R607") (unit 1)
         )
       )
     )
@@ -3683,13 +3683,13 @@
   (symbol (lib_id "Device:R") (at 272.415 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b162cade-2fba-498e-93c0-f23ea579d0e2)
-    (property "Reference" "R607" (at 274.32 115.57 0)
+    (property "Reference" "R611" (at 274.32 115.57 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 274.32 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 270.637 116.84 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 270.637 116.84 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 272.415 116.84 0)
@@ -3700,7 +3700,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "R607") (unit 1)
+          (reference "R611") (unit 1)
         )
       )
     )
@@ -3709,7 +3709,7 @@
   (symbol (lib_id "power:GND") (at 279.4 96.52 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf8868fe-0627-48ba-9e13-8f1d884165b8)
-    (property "Reference" "#PWR0622" (at 279.4 102.87 0)
+    (property "Reference" "#PWR0624" (at 279.4 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 279.4 100.33 0)
@@ -3725,7 +3725,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "#PWR0622") (unit 1)
+          (reference "#PWR0624") (unit 1)
         )
       )
     )
@@ -3737,7 +3737,7 @@
     (property "Reference" "U601" (at 208.915 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "XC6SLX9-TQG144" (at 208.915 125.73 0)
+    (property "Value" "XC6SLX9-xTQG144" (at 208.915 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 208.915 143.51 0)
@@ -3905,7 +3905,7 @@
     (property "Reference" "U601" (at 90.17 111.125 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "XC6SLX9-TQG144" (at 90.17 113.665 0)
+    (property "Value" "XC6SLX9-xTQG144" (at 90.17 113.665 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 90.17 151.765 0)
@@ -4070,13 +4070,13 @@
   (symbol (lib_id "Device:R") (at 248.92 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d82fc882-bf25-4045-82a4-14dbc19d2c46)
-    (property "Reference" "R605" (at 250.825 72.39 0)
+    (property "Reference" "R603" (at 250.825 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 250.825 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 247.142 73.66 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 247.142 73.66 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 248.92 73.66 0)
@@ -4087,7 +4087,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "R605") (unit 1)
+          (reference "R603") (unit 1)
         )
       )
     )
@@ -4096,7 +4096,7 @@
   (symbol (lib_id "power:GND") (at 276.225 140.335 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dad12e38-a1d3-43cc-8aa4-fcfb86731cb8)
-    (property "Reference" "#PWR0618" (at 282.575 140.335 0)
+    (property "Reference" "#PWR0623" (at 282.575 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 279.4 140.335 90)
@@ -4112,7 +4112,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "#PWR0618") (unit 1)
+          (reference "#PWR0623") (unit 1)
         )
       )
     )
@@ -4121,13 +4121,13 @@
   (symbol (lib_id "Device:R") (at 272.415 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df5a415a-2de7-4b27-9662-11d11c6cf902)
-    (property "Reference" "R606" (at 274.32 106.68 0)
+    (property "Reference" "R610" (at 274.32 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 274.32 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 270.637 107.95 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 270.637 107.95 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 272.415 107.95 0)
@@ -4138,7 +4138,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "R606") (unit 1)
+          (reference "R610") (unit 1)
         )
       )
     )
@@ -4147,7 +4147,7 @@
   (symbol (lib_id "power:GND") (at 272.415 120.65 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e127966b-477a-4ce7-83ee-6135fd8c19a3)
-    (property "Reference" "#PWR0614" (at 272.415 127 0)
+    (property "Reference" "#PWR0621" (at 272.415 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 272.415 125.095 0)
@@ -4163,7 +4163,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "#PWR0614") (unit 1)
+          (reference "#PWR0621") (unit 1)
         )
       )
     )
@@ -4197,7 +4197,7 @@
   (symbol (lib_id "power:GND") (at 259.08 52.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1752bba-022d-4502-ab34-becac5e7c50b)
-    (property "Reference" "#PWR0616" (at 265.43 52.07 0)
+    (property "Reference" "#PWR0614" (at 265.43 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 262.89 52.07 90)
@@ -4213,7 +4213,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "#PWR0616") (unit 1)
+          (reference "#PWR0614") (unit 1)
         )
       )
     )
@@ -4222,13 +4222,13 @@
   (symbol (lib_id "Device:R") (at 259.08 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f7c0b32a-f48c-44cc-8d06-d0c588a1ee8f)
-    (property "Reference" "R603" (at 260.985 115.57 0)
+    (property "Reference" "R608" (at 260.985 115.57 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 260.985 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 257.302 116.84 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 257.302 116.84 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 259.08 116.84 0)
@@ -4239,7 +4239,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "R603") (unit 1)
+          (reference "R608") (unit 1)
         )
       )
     )
@@ -4248,7 +4248,7 @@
   (symbol (lib_id "power:GND") (at 259.08 120.65 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8da2a33-6e99-4e43-a941-172bf9e5b222)
-    (property "Reference" "#PWR0611" (at 259.08 127 0)
+    (property "Reference" "#PWR0616" (at 259.08 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 259.08 125.095 0)
@@ -4264,7 +4264,7 @@
     (instances
       (project "ETH2CDSO1B"
         (path "/5e9d9a67-9011-4d17-9f7a-23dbb04d2fbf/6dd0da5a-350a-4004-91bc-431ec87ae3a1"
-          (reference "#PWR0611") (unit 1)
+          (reference "#PWR0616") (unit 1)
         )
       )
     )
